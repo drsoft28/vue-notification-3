@@ -98,6 +98,15 @@ const showNotification = ()=> {
 </script>
 ```
 
+```javascript
+/** if used window parameter */
+window.$notify({
+        group:'foo',
+        title: 'Success',
+        text: 'This is a success notification!',
+        type: 'success',
+      })
+```
 ### API
 
 Notifications are triggered via the API:
