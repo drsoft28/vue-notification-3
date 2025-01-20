@@ -34,6 +34,7 @@ Add dependencies to your `main.js`:
 
 ```javascript
 import Vue           from 'vue'
+import 'vue-notification-3/dist/vue-notification-3.css' // import css
 import Notifications from 'vue-notification-3'
 
 import { createApp } from 'vue';
