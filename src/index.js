@@ -31,10 +31,11 @@ const Notify = {
 
     // Define the global property name
     const name = args.name || 'notify';
-
+    const addToWindow = args.window || false
     // Add $notify to the global properties
     app.config.globalProperties['$' + name] = notify;
-
+    if(addToWindow!==false)
+      window['$' + addToWindow] = notify
     // Add notify to the app instance
     app.provide(name, notify); // Optional: Provide the notify function for Composition API usage
   }
