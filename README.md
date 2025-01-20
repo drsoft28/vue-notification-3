@@ -46,7 +46,7 @@ const app = createApp(App);
 app.use(Notifications, {
   componentName: 'vue-notifications', // Optional: Custom component name
   name: 'notify', // Optional: Custom global property name
-  window: 'notify',// Optional: Custom key in window,this is will be window.$notif
+  window: 'notify',// Optional: Custom key in window,this is will be window.$notify
 });
 
 app.mount('#app');

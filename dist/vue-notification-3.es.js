@@ -58,7 +58,6 @@ const L = {
   cssAnimation: "vn-fade",
   velocityAnimation: {
     enter: (e) => {
-      console.warn("enter", e);
       var n = e.clientHeight;
       return {
         height: [n, 0],
