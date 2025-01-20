@@ -3,7 +3,6 @@ export default {
   cssAnimation: 'vn-fade',
   velocityAnimation: {
     enter: (el) => {
-      console.warn('enter',el)
       var height = el.clientHeight
 
       return {
