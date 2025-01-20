@@ -1,0 +1,37 @@
+{
+  "name": "vue-notification-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/vue-notification-3.umd.js",
+  "module": "./dist/vue-notification-3.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "notification",
+    "vuejs 3",
+    "vue 3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drsoft28/vue-notification-3"
+  },
+  "author": "drsoft28",
+  "license": "MIT",
+  "dependencies": {
+    "velocity-animate": "^1.5.2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.10"
+  }
+}
