@@ -1,3 +1,12 @@
+<p align="right">
+  <a href="https://ko-fi.com/drsoft" target="_blank">
+  <img width="140" alt="Ko-fi Logo" src="https://storage.ko-fi.com/cdn/fullLogoKofi.png">
+  </a>
+</p>
+
+[![npm version](https://badge.fury.io/js/vue-notification-3.svg)](https://badge.fury.io/js/vue-notification-3)
+[![npm](https://img.shields.io/npm/dm/vue-notification-3.svg)](https://www.npmjs.com/package/vue-notification-3)
+
 # Vue Notification 3
 
 A lightweight and customizable notification system for **Vue 3**, built to provide smooth and flexible notifications with minimal setup. This package is an updated version of the popular `vue-notification` [vue-notification](https://github.com/euvl/vue-notification) library, now fully compatible with Vue 3.
@@ -82,7 +91,7 @@ export default {
   },
 };
 </script>
-<!-- or -->
+/* or */
 <script setup>
  import { inject } from 'vue';
 // Inject the notify function provided by the plugin
